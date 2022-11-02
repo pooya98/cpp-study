@@ -16,9 +16,9 @@ struct Car
 
 void ShowCarState(const Car &car)
 {
-    cout<<"소유자ID: "<<car.gamerID<<endl;
-    cout<<"연료량: << "<<car.fuelGauge<<endl;
-    cout<<"현재속도: "<<car.curSpeed<<endl;
+    cout<<"소유자ID : "<<car.gamerID<<endl;
+    cout<<"연료량   : "<<car.fuelGauge<<"%"<<endl;
+    cout<<"현재속도 : "<<car.curSpeed<<"km/s"<<endl<<endl;
 }
 
 void Accel(Car &car){
